@@ -1,4 +1,8 @@
 Revision history for Perl extension Dist-Zilla-Plugin-KwaliteeTests
 
+1.101420  2010-05-22 17:47:26 Europe/Vienna
+    - removed weaver.ini since that's handled in Dist::Zilla's [@MARCEL] now
+    - list Test::Kwalitee in dist.ini so we don't use() it anymore
+
 1.100690  2010-03-10 23:43:35 Europe/Vienna
     - original version
